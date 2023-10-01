@@ -3,8 +3,8 @@
 using namespace std;
 
 // Merges two subarrays of array[].
-// First subarray is arr[begin..mid]
-// Second subarray is arr[mid+1..end]
+// First subarray is arr[begin - mid]
+// Second subarray is arr[mid+1 - end]
 void merge(int array[], int const left, int const mid,
 		int const right)
 {
